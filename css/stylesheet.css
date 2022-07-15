@@ -1,0 +1,164 @@
+@import url('http://fonts.cdnfonts.com/css/verdana');
+
+:root {
+  --main-bg-color: rgb(255, 255, 255);
+}
+
+html {
+  background-color: var(--main-bg-color);
+}
+
+body {
+  width: 100% !important;
+  margin: 0;
+  background-color: var(--main-bg-color);
+}
+
+h1 {
+  font-family: 'Verdana', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-family: 'Verdana', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: lighter;
+  margin-top: 1em;
+}
+
+p {
+  font-family: 'Verdana', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: 1em;
+  padding: 0.7em;
+}
+
+#btn-contact {
+  width: fit-content;
+  align-self: center;
+  margin-top: 2em;
+  background: transparent;
+  color: white;
+  margin-bottom: 4em;
+}
+
+#btn-contact:hover {
+  background: white;
+  color: #201738;
+}
+
+.badge > img {
+  padding: 0;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.4);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  background: linear-gradient(60deg, #3c305e 0%, #201738 100%);
+  border-radius: 12px;
+  margin: 1em;
+  padding: 1em;
+  flex: 1 1;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-basis: 100%;
+  }
+
+  .double-card {
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-basis: calc(50% - 2em);
+    max-width: 90%;
+  }
+
+  .double-card {
+    flex-basis: calc(100% - 2em);
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card {
+    flex-basis: calc(33% - 2em);
+    max-width: 80%;
+  }
+
+  .double-card {
+    flex-basis: calc(66% - 2em);
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .card {
+    flex-basis: calc(25% - 2em);
+    max-width: 60%;
+  }
+
+  .double-card {
+    flex-basis: calc(50% - 2em);
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .card {
+    flex-basis: calc(20% - 2em);
+    max-width: 40%;
+  }
+
+  .double {
+    flex-basis: calc(40% - 2em);
+    max-width: 40%;
+  }
+}
+
+.card * {
+  color: white;
+}
+
+.card-header > i {
+  font-size: 1.5rem;
+  align-self: center;
+  padding: 1em;
+}
+
+.card-header-title {
+  padding-left: 1.5em;
+  padding: 1em;
+  margin-bottom: 0%;
+}
+
+.card-content {
+  margin: 0;
+  text-align: left;
+  padding-bottom: 4em;
+  height: calc(100% - 4em);
+}
+
+.card-content .progress {
+  position: absolute;
+  width: calc(100% - 5em);
+  bottom: 0;
+  margin: 1em 0 2em 0;
+}

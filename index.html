@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/waves.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/overBulma.css">
+  <script src="https://kit.fontawesome.com/540a10185b.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="header">
+    <!--Content before waves-->
+    <div class="inner-header flex">
+      <h1 class="header-h1">Gabriel Luis</h1>
+      <h2 class="header-h2">Desarrollador de Software</h2>
+      <button class="button is-outlined is-rounded" id="btn-contact">
+        <span class="icon">
+          <i class="fa-solid fa-id-badge"></i>
+        </span>
+        <span>Contacto</span>
+      </button>
+    </div>
+    <!--Waves Container-->
+    <div>
+      <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,1)" />
+        </g>
+      </svg>
+    </div>
+  </div>
+  <!--Content after waves-->
+  <div class="content-wave flex">
+
+    <!-- About me and badges -->
+    <div>
+      <h1>Sobre mí</h1>
+      <p>Soy un estudiante de ingeniería informática en la Universidad de La Laguna. Actualmente me encuentro cursando el cuarto curso</p>
+      <span class="badge"><img src="https://camo.githubusercontent.com/5859172b2d0854f4d70d35118ae1fbb8d92f967ea654f1bb1bdae4a346d03926/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f632d2532333030353939432e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63266c6f676f436f6c6f723d7768697465" alt="C badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/891c1fd9d2ab2adf1053e8514f469b94049769ccd9d2765c8e06e9c1b6da1b8c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f632b2b2d2532333030353939432e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63253242253242266c6f676f436f6c6f723d7768697465" alt="C++ badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/49fbb99f92674cc6825349b154b65aaf4064aec465d61e8e1f9fb99da3d922a1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465" alt="HTML5 badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/e6b67b27998fca3bccf4c0ee479fc8f9de09d91f389cccfbe6cb1e29c10cfbd7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d2532333135373242362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465" alt="CSS3 badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/aeddc848275a1ffce386dc81c04541654ca07b2c43bbb8ad251085c962672aea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145" alt="Javascript badge"></span>    
+      <span class="badge"><img src="https://camo.githubusercontent.com/ee71fcc1aa3d059265517741dffc4161922fd744377e7a5f07c43381d0aa9aac/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f747970657363726970742d2532333030374143432e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d74797065736372697074266c6f676f436f6c6f723d7768697465" alt="Typescript badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/3a1853bcde3555bc65ea48d85c4fe4abc44143c663ccab970765f0f9355e3588/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f45534c696e742d3442333236333f7374796c653d666f722d7468652d6261646765266c6f676f3d65736c696e74266c6f676f436f6c6f723d7768697465" alt="Eslint badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/7d7b100e379663ee40a20989e6c61737e6396c1dafc3a7c6d2ada8d4447eb0e4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652e6a732d3644413535463f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465" alt="NodeJs badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/c839570bc71901106b11b8411d9277a6a8356a9431e4a16d6c26db82caab7d62/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d2532333465613934622e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465" alt="MongoDB badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/a1b2dac5667822ee0d98ae6d799da61987fd1658dfeb4d2ca6e3c99b1535ebd8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d3336373041303f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d666664643534" alt="Python badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/5b61735c54b91b851198d6de978a3ff3f3f9b5c2428bd5ed7f28ced1c93a181c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f727562792d2532334343333432442e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d72756279266c6f676f436f6c6f723d7768697465" alt="Ruby badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/b24523991dccb1991a2b8faa8dd97f48a0944157eacb7316b32834c2e070cf09/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f676f2d2532333030414444382e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d676f266c6f676f436f6c6f723d7768697465" alt="Go badge"></span>
+      <span class="badge"><img src="https://camo.githubusercontent.com/5a19333ccd9cc87637214d3a5c251c8fa43bf4e18ae84b1b4f78d150350a64c9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52617370626572727950692d4335314134413f7374796c653d666f722d7468652d6261646765266c6f676f3d5261737062657272792d5069" alt="Raspberry badge"></span>
+    </div>
+
+    <!-- Projects -->
+    <div>
+      <h1>Proyectos</h1>
+      <div class="cards">
+        <div class="card double-card">
+          <a href="#">
+            <header class="card-header is-shadowless">
+              <p class="card-header-title">
+                Sudoku Solver
+              </p>
+              <i class="fa-solid fa-code-branch"></i>
+            </header>
+            <div class="card-content">
+              <div>
+                Proyecto de Inteligencia Artificial en el que se hace uso de Prolog y Python para desarrollar una aplicación de escritorio capaz de resolver sudokus dados por el usuario
+                <progress class="progress is-small is-primary" value="100" max="100"></progress>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <header class="card-header is-shadowless">
+              <p class="card-header-title">
+                Sudoku Solver
+              </p>
+              <i class="fa-solid fa-code-branch"></i>
+            </header>
+            <div class="card-content">
+              <div>
+                Proyecto de Inteligencia Artificial en el que se hace uso de Prolog y Python para desarrollar una aplicación de escritorio capaz de resolver sudokus dados por el usuario
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum doloremque corrupti recusandae nobis perferendis illo fugit ex magnam dolorum! Reiciendis odit cumque error, officiis facilis ea atque aut iusto inventore!
+                <progress class="progress is-small is-primary" value="100" max="100"></progress>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <header class="card-header is-shadowless">
+              <p class="card-header-title">
+                Sudoku Solver
+              </p>
+              <i class="fa-solid fa-code-branch"></i>
+            </header>
+            <div class="card-content">
+              <div>
+                Proyecto de Inteligencia Artificial en el que se hace uso de Prolog y Python para desarrollar una aplicación de escritorio capaz de resolver sudokus dados por el usuario
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum doloremque corrupti recusandae nobis perferendis illo fugit ex magnam dolorum! Reiciendis odit cumque error, officiis facilis ea atque aut iusto inventore!
+                <progress class="progress is-small is-primary" value="100" max="100"></progress>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <header class="card-header is-shadowless">
+              <p class="card-header-title">
+                Sudoku Solver
+              </p>
+              <i class="fa-solid fa-code-branch"></i>
+            </header>
+            <div class="card-content">
+              <div>
+                Proyecto de Inteligencia Artificial en el que se hace uso de Prolog y Python para desarrollar una aplicación de escritorio capaz de resolver sudokus dados por el usuario
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum doloremque corrupti recusandae nobis perferendis illo fugit ex magnam dolorum! Reiciendis odit cumque error, officiis facilis ea atque aut iusto inventore!
+                <progress class="progress is-small is-info" value="100" max="100"></progress>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <header class="card-header is-shadowless">
+              <p class="card-header-title">
+                Sudoku Solver
+              </p>
+              <i class="fa-solid fa-code-branch"></i>
+            </header>
+            <div class="card-content">
+              <div>
+                Proyecto de Inteligencia Artificial en el que se hace uso de Prolog y Python para desarrollar una aplicación de escritorio capaz de resolver sudokus dados por el usuario
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum doloremque corrupti recusandae nobis perferendis illo fugit ex magnam dolorum! Reiciendis odit cumque error, officiis facilis ea atque aut iusto inventore!
+                <progress class="progress is-small is-info" max="100">60%</progress>              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+
+  </div>
+  <!--Content ends-->
+</body>
+</html>
