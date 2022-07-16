@@ -39,13 +39,16 @@ p {
   padding: 0.7em;
 }
 
+#btn-contact {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
 #btn-contact  button {
   width: fit-content;
   align-self: center;
-  margin-top: 2em;
   background: transparent;
   color: white;
-  margin-bottom: 4em;
 }
 
 #btn-contact  button:hover {
