@@ -39,7 +39,7 @@ p {
   padding: 0.7em;
 }
 
-#btn-contact {
+#btn-contact  button {
   width: fit-content;
   align-self: center;
   margin-top: 2em;
@@ -48,9 +48,13 @@ p {
   margin-bottom: 4em;
 }
 
-#btn-contact:hover {
+#btn-contact  button:hover {
   background: white;
   color: #201738;
+}
+
+#btn-contact button:hover svg {
+  stroke: #201738;
 }
 
 .badge > img {
@@ -68,12 +72,20 @@ p {
 }
 
 .card {
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
   background: linear-gradient(60deg, #3c305e 0%, #201738 100%);
   border-radius: 12px;
   margin: 1em;
   padding: 1em;
   flex: 1 1;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  transform: translateY(-0.5rem);
+  transform: scale(1.02);
+  background: linear-gradient(60deg, #3c305e 30%, #201738 100%);
 }
 
 @media (max-width: 768px) {
@@ -138,10 +150,13 @@ p {
   color: white;
 }
 
-.card-header > i {
-  font-size: 1.5rem;
+.card-header > .icon {
   align-self: center;
-  padding: 1em;
+  margin: 1em;
+}
+
+.icon > svg {
+  stroke: white;
 }
 
 .card-header-title {
