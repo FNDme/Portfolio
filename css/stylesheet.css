@@ -181,3 +181,8 @@ p {
   bottom: 0;
   margin: 1em 0 2em 0;
 }
+
+.important-text {
+  color: #3c305e;
+  font-weight: bold;
+}
