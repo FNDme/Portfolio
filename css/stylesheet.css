@@ -39,24 +39,24 @@ p {
   padding: 0.7em;
 }
 
-#btn-contact {
+#btn-contact-div {
   padding-top: 2em;
   padding-bottom: 4em;
 }
 
-#btn-contact  button {
+#btn-contact-div  button {
   width: fit-content;
   align-self: center;
   background: transparent;
   color: white;
 }
 
-#btn-contact  button:hover {
+#btn-contact-div  button:hover {
   background: white;
   color: #201738;
 }
 
-#btn-contact button:hover svg {
+#btn-contact-div button:hover svg {
   stroke: #201738;
 }
 
