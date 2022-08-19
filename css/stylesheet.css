@@ -44,6 +44,13 @@ p {
   padding-bottom: 4em;
 }
 
+#btn-language-div {
+  position: absolute;
+  right: 0;
+  top: 1em;
+  right: 5%;
+}
+
 #btn-contact-div  button {
   transition: all 0.3s ease-in-out;
   width: fit-content;
@@ -61,12 +68,31 @@ p {
   stroke: #201738;
 }
 
+#btn-language-div  button {
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+  align-self: center;
+  background: transparent;
+  color: white;
+}
+
+#btn-language-div  button:hover {
+  background: white;
+  color: #201738;
+}
+
+#btn-language-div button:hover svg {
+  stroke: #201738;
+}
+
 #btn-home {
   background-color: #3c305e;
   transition: all 0.3s ease-in-out;
   width: fit-content;
-  align-self: center;
   color: white;
+  position: absolute;
+  top: 1em;
+  right: 5%;
 }
 
 #btn-home:hover {

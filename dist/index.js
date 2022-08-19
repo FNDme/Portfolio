@@ -8,3 +8,11 @@ document.getElementById('btn-contact')?.addEventListener('click', () => {
         window.location.href = 'contact.html';
     }
 });
+document.getElementById('btn-language')?.addEventListener('click', () => {
+    if (document.getElementsByTagName('html')[0].lang === 'en') {
+        window.location.href = 'index.html';
+    }
+    else {
+        window.location.href = 'index_en.html';
+    }
+});
