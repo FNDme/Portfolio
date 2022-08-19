@@ -1,4 +1,8 @@
 // Event listener on contact button click -> User is redirected to contact page
 document.getElementById('btn-contact')?.addEventListener('click', () => {
-  window.location.href = 'contact.html';
+  if (document.getElementsByTagName('html')[0].lang === 'en') {
+      window.location.href = 'contact_en.html';
+  } else {
+      window.location.href = 'contact.html';
+  }
 });

@@ -61,6 +61,18 @@ p {
   stroke: #201738;
 }
 
+#btn-home {
+  background-color: #3c305e;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+  align-self: center;
+  color: white;
+}
+
+#btn-home:hover {
+  background-color: #201738;
+}
+
 .badge > img {
   padding: 0;
   box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.4);
@@ -205,4 +217,9 @@ p {
 .important-text {
   color: #3c305e;
   font-weight: bold;
+}
+
+.content-body-text p {
+  margin: 0;
+  padding: 0.7em;
 }
