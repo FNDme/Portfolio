@@ -45,6 +45,7 @@ p {
 }
 
 #btn-contact-div  button {
+  transition: all 0.3s ease-in-out;
   width: fit-content;
   align-self: center;
   background: transparent;
